@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<title>Image Gallery</title>
+	<script type="text/javascript" src="scripts/showPic.js"></script>
+</head>
+<body>
+	<h1>Snapshot</h1>
+	<ul>
+		<li>
+			<a href="images/davinci.jpg" title="A davinci image" onclick="showPic(this);return false;">Davinci</a>
+		</li>
+		
+		<li>
+			<a href="images/machine.jpg" title="A machine image" onclick="showPic(this);return false;">Machine</a>
+		</li>
+		
+		<li>
+			<a href="images/babel.jpg" title="A babel image" onclick="showPic(this);return false;">Babel</a>
+		</li>
+	</ul>
+	
+	<img id="placeholder" src="images/placehoder.gif" alt="my image gallery" />
+	
+</body>
+</html>
